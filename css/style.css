@@ -1,0 +1,29 @@
+* ,::after ,::before{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    list-style-type: none;
+    padding: 0px 20px;
+
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+}
+.logo{
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+header{
+background-image: url();}

@@ -1,0 +1,338 @@
+* ,::after ,::before{
+    box-sizing: border-box;
+}
+:root{
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    
+}
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    list-style-type: none;
+    padding: 0px 20px;
+
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+}
+.logo{
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+header{
+    background-image: url(assignment6-images/hero-bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.layer1{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    position: absolute;
+}
+.textheader h1{
+    z-index: 5;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    font-size: 70px;
+    
+}
+
+.textheader h1::after{
+    content: "";
+    animation: typing 10s infinite;
+    color: white;
+    z-index: 9;
+    position: absolute;
+    top: 180%;
+    right: 45%;
+    font-size: 40px;
+
+}
+@keyframes typing{
+    0%{content:"|";}
+    5%{content: "De";}
+    10%{content: "Devo |";}
+    15%{ content: "Devolp";}
+    20%{content: "Devolper|";}
+    25%{content: "Devolp";}
+    30%{content: "Devo|";}
+    35%{content: "De ";}
+    40%{content: "|";}
+    45%{content: "De";}
+    50%{content: "Desi";}
+    55%{content: "Design";}
+    60%{content: "Designer|";}
+    65%{content: "Design";}
+    70%{content: "Desig|";}
+    75%{content: "Desi";}
+    80%{content: "Des|";}
+    85%{content: " De";}
+    90%{content: "D| ";}
+    95%{content: "D";}
+    100%{content: "|";}
+}
+.hundred{
+    width: 100%;
+    height: 15px;
+    background-color:#cde1f8;
+}
+.pre{
+    height: 100%;
+    width: 85%;
+    background-color: #0078ff;
+}
+.pre75{
+    height: 100%;
+    width: 75%;
+    background-color: #0078ff;
+}
+.pre50{
+    height: 100%;
+    width: 50%;
+    background-color: #0078ff;
+}
+.pre90{
+    height: 100%;
+    width: 90%;
+    background-color: #0078ff;
+}
+.pcolor1{
+    color: #4E4E4C;
+}
+.color-sec1{
+    background-color: #f5f5f5;
+}
+.bg-white{
+    background-color: white;
+}
+.colorp1{
+    color: #4e4e4e;
+    font-weight: 300;
+    padding: 20px 0px;
+    font-size: larger;
+    font-family: var(--bs-body-font-family);
+}
+.boxshadow1{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+}
+.w-10{
+    width:5%;
+}
+.head2{
+   
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.para2{
+    color: #4e4e4e;
+    
+}
+i{
+    border: 5px;
+    border-width: 5px;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 50px;
+    border: solid 15px ;
+    border-color:#0078ff ;
+    margin: auto;
+   
+    
+}
+.item:hover .circle{
+    background-color: #0373f3;
+    border-color: #b2cae5;
+}
+.circle i{
+    font-weight: 100;
+    
+}
+.head3{
+    font-size: 4rem;
+
+}
+.head2{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.4rem 0;
+    color: #1e1e1e;
+}
+.bg-gray{
+    background-color: #f5f5f5;
+}
+.sec4{
+    background-image: url(assignment6-images/post-3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}    
+.layr4{
+    background-color: #0078ff;
+}
+.circle4{
+    width: 60px;
+    height: 60px;
+    border:  5px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #cde1f8;
+
+}
+.cont4 p{
+    color: white;
+}
+.head3{
+    font-family: var(--bs-font-sans-serif);
+    font-weight: bold;
+    font-size: 3rem;
+}
+.item5{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+    overflow:hidden ;
+}
+.circle5{
+    width: 40px;
+    height: 40px;
+    border: solid 4px;
+    border-radius: 50%;
+    border-color: #0078ff;
+}
+.img5 img{
+    width: 100%;
+    transition: transform 1s;
+}
+.item5:hover .img5 img{
+    transform: scale(1.4,1.4);
+    transition: transform 1s;
+
+    
+}
+.sec6{
+    background-image: url(assignment6-images/overlay-bg.jpg);
+    height: 60%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+.layr6{
+    background-color: #0078ff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0.7;
+    
+
+}
+.carousel-indicators[data-bs-target]{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.item7{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+
+.cardfooter{
+    border: 1px solid;
+}
+.FOOTER1 img{
+    width: 20%;
+}
+.badg{
+    position: absolute;
+    top: 52%;
+    right:50%;
+    transform:translateX(50%);
+}
+.item7{
+    position: relative;
+}
+form{
+    background-image: url(assignment6-images/overlay-bg.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 120%;
+    background-position: center center;
+    margin-bottom: 0px;
+}
+.layrs8{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:0078ff ;
+    opacity: 0.7;
+}
+.layrs8 h2{
+    position: relative;
+}
+.layrs8 h2::after
+{
+    content: "";
+    position: absolute;
+    background-color: #0373f3;
+    width: 20%;
+    height: 4px;
+    top:120%;  
+    left: 0%;
+}
+textarea{
+    width: 100%;
+    
+}
+button{
+    background-color: #0078ff;
+    border-color: #0078ff;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 20px 50px;
+    color: white;
+    border-width: 2px;
+    font-size: 18;
+    margin-top: 20px;
+    margin: auto;
+}
+.ico1{
+    width: 50px;
+    height: 50px;
+    border: 3px solid;
+    border-radius: 50%;
+    border-color: #0078ff;
+}
